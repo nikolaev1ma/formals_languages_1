@@ -28,24 +28,27 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(longest_suffix("ca.a.ab.+*", "cacababcaa"), 7)
 
     def test9(self):
-        self.assertEqual(longest_suffix("ca.a.ab.+*", "cacababcaa"), 7)
+        self.assertEqual(longest_suffix("ab+c.aba.*.bac.+.+*", "babc"), 2)
 
-    def test9(self):
+    def test10(self):
+        self.assertEqual(longest_suffix("acb..bab.c.*.ab.ba.+.+*a.", "cbaa"), 4)
+
+    def test11(self):
         with self.assertRaises(Exception) as context:
             longest_suffix("zsertsehtsgh14sdrg2313", "cacababcaa")
         self.assertEqual("Haven't got this letter", str(context.exception))
 
-    def test10(self):
+    def test12(self):
         with self.assertRaises(Exception) as context:
             longest_suffix("..", "cacababcaa")
         self.assertEqual("Wrong polish entry", str(context.exception))
 
-    def test11(self):
+    def test13(self):
         with self.assertRaises(Exception) as context:
             longest_suffix("aab", "cacababcaa")
         self.assertEqual("Wrong polish entry", str(context.exception))
 
-    def test12(self):
+    def test14(self):
         with self.assertRaises(Exception) as context:
             longest_suffix("a", "qwewt232")
         self.assertEqual("u haven't got this letter", str(context.exception))

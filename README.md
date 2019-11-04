@@ -50,10 +50,12 @@
  6. "ac+b+*c.b.c.c*.", "acbabaccbac"
  7. "1a+b.", "cb"
  8. "ca.a.ab.+*", "cacababcaa"
- 9. "zsertsehtsgh14sdrg2313", "cacababcaa"
- 10. "..", "cacababcaa"
- 11. "aab", "cacababcaa"
- 12. "a", "qwewt232"
+ 9. "ab+c.aba.*.bac.+.+*", "babc"
+ 10. "acb..bab.c.*.ab.ba.+.+*a.", "cbaa"
+ 11. "zsertsehtsgh14sdrg2313", "cacababcaa"
+ 12. "..", "cacababcaa"
+ 13. "aab", "cacababcaa"
+ 14. "a", "qwewt232"
  
  
  
